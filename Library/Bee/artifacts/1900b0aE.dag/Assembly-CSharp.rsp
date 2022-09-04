@@ -348,6 +348,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Controllers/AnimationController.cs"
 "Assets/Scripts/Controllers/PlayerController.cs"
+"Assets/Scripts/Core/Fuzzy.cs"
+"Assets/Scripts/Core/HeapQueue.cs"
+"Assets/Scripts/Core/Simulation.cs"
+"Assets/Scripts/Core/Simulation.Event.cs"
+"Assets/Scripts/Core/Simulation.InstanceRegister.cs"
 -langversion:9.0
 
 /deterministic

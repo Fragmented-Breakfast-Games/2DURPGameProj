@@ -43,6 +43,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\Core\Fuzzy.cs" />
+     <Compile Include="Assets\Scripts\Core\HeapQueue.cs" />
+     <Compile Include="Assets\Scripts\Core\Simulation.cs" />
+     <Compile Include="Assets\Scripts\Core\Simulation.Event.cs" />
+     <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
