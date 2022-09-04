@@ -325,6 +325,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Users/ayych/Documents/GitHub/2DURPGameProj/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/ayych/Documents/GitHub/2DURPGameProj/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -346,13 +347,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Controllers/AnimationController.cs"
+"Assets/Scripts/Controllers/PlayerAnimator.cs"
 "Assets/Scripts/Controllers/PlayerController.cs"
+"Assets/Scripts/Controllers/PlayerExtras.cs"
 "Assets/Scripts/Core/Fuzzy.cs"
 "Assets/Scripts/Core/HeapQueue.cs"
 "Assets/Scripts/Core/Simulation.cs"
 "Assets/Scripts/Core/Simulation.Event.cs"
 "Assets/Scripts/Core/Simulation.InstanceRegister.cs"
+"Assets/Simple 2D Platformer BE2/ReadMe/Scripts/ReadmeBE2.cs"
 -langversion:9.0
 
 /deterministic

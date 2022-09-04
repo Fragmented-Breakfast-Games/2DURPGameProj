@@ -42,12 +42,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Controllers\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerAnimator.cs" />
      <Compile Include="Assets\Scripts\Core\Fuzzy.cs" />
      <Compile Include="Assets\Scripts\Core\HeapQueue.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.Event.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerExtras.cs" />
+     <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
+     <None Include="Assets\Free Stylized Skybox\ReadMe.txt" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -729,6 +732,10 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{a5b7775c-8b76-83a1-c541-6a8dd199073f}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{0b8c9624-4ac3-fc9c-fe68-e39d6b49ffb8}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
