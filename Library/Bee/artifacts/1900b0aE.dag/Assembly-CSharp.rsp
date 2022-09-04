@@ -347,15 +347,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Controllers/PlayerAnimator.cs"
 "Assets/Scripts/Controllers/PlayerController.cs"
-"Assets/Scripts/Controllers/PlayerExtras.cs"
 "Assets/Scripts/Core/Fuzzy.cs"
 "Assets/Scripts/Core/HeapQueue.cs"
 "Assets/Scripts/Core/Simulation.cs"
 "Assets/Scripts/Core/Simulation.Event.cs"
 "Assets/Scripts/Core/Simulation.InstanceRegister.cs"
-"Assets/Simple 2D Platformer BE2/ReadMe/Scripts/ReadmeBE2.cs"
 -langversion:9.0
 
 /deterministic
