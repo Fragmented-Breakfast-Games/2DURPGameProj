@@ -104,9 +104,6 @@ namespace Controllers
                 this.Jump();
                 //should be a double jump
             }
-            
-          
-            
             //coyote time and jump buffer time
             if (isGrounded)
             {
@@ -200,7 +197,6 @@ namespace Controllers
             }
             
         }
-
         // cool down coroutine
         private IEnumerator JumpCooldown()
         {
