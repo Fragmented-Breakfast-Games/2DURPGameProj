@@ -35,8 +35,9 @@ namespace Controllers
         private int jumpCount; //added this to keep track of jumps
         public int maxJumps = 2; //added this to keep track of jumps
 
-
+        public bool canThrust = true; // if the player can thrust
         public bool isThrusting; //added this to keep track of thrusting
+        
 
         bool facingRight = true;
         float moveDirection = 0;
@@ -145,11 +146,12 @@ namespace Controllers
             //thrust player in the direction they are facing
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
-                r2d.AddForce(new Vector2(5000f* moveDirection, 0f));
-                Debug.Log("Thrusting");
-                //character blink red to indicate cooldown
-                StartCoroutine(m_Enumerator);
-                // revert character color to originala
+                //thrust once then cooldown
+                if (canThrust)
+                {
+                    isThrusting = true;
+                    StartCoroutine(ThrustCooldown());
+                }
 
             }
 
@@ -226,18 +228,36 @@ namespace Controllers
         
         private IEnumerator ThrustCooldown()
         {
-            isThrusting = true;
-            yield return new WaitForSeconds(10.0f);
-            // blink red
-            for (int i = 0; i < 10; i++)
+            //thrust once then cooldown
+            if (canThrust)
             {
-                yield return new WaitForSeconds(0.1f);
-                GetComponent<SpriteRenderer>().color = Color.red;
-                yield return new WaitForSeconds(0.1f);
-                GetComponent<SpriteRenderer>().color = Color.cyan;;
+                isThrusting = true;
+                r2d.AddForce(new Vector2(5000f*moveDirection, 0f));
+                canThrust= false;
+                Debug.Log("Thrusting");
+                // blink red for 5 seconds then can thrust again
+                StartCoroutine(BlinkRed());
+                yield return new WaitForSeconds(5.0f);
+                canThrust = true;
+                
             }
-            GetComponent<SpriteRenderer>().color = Color.cyan;
-            isThrusting = false;
         }
+
+        private IEnumerator BlinkRed()
+        {
+            // blink red for 5 seconds
+            for (int i = 0; i < 5; i++)
+            {
+                gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                yield return new WaitForSeconds(0.10f);
+                gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+                yield return new WaitForSeconds(0.10f);
+                gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                yield return new WaitForSeconds(0.10f);
+                gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+                yield return new WaitForSeconds(0.10f);
+            }
+        }
+        
     }
 }
