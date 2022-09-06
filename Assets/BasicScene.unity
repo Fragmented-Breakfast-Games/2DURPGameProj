@@ -396,6 +396,8 @@ MonoBehaviour:
   jumpHeight: 6.5
   gravityScale: 1.5
   mainCamera: {fileID: 895727475}
+  canThrust: 1
+  isThrusting: 0
 --- !u!1 &630763968
 GameObject:
   m_ObjectHideFlags: 0
