@@ -1,7 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c7b4364-219f-4c78-88a3-4b956405648b" name="Changes" comment="A proper player controller, with double jump&#10;&#10;Signed-off-by: Charlotte &lt;ayy.charlotte@gmail.com&gt;" />
+    <list default="true" id="2c7b4364-219f-4c78-88a3-4b956405648b" name="Changes" comment="">
+      <changelist_data name="Charlotte" email="ayy.charlotte@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BasicScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Stylized Skybox/Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/0f/0fc7c2e614ec7d88db7a71e8dba0b094" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/14/14de4871acd3004e509612f0b14bc7b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/15/150b1000282213ddf61bf320add441eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/19/19984f17372d5633d0d0942935115ca0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/2d/2de9a4e3d0b4542ccdf074a1551687da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/39/390c360f65338926878ee48919f49724" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/56/567f86d42b9be15633982506ced49ce1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/60/6023cf6ebdce5fdc87515569a82bef08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/72/72a2efe081131eb76af7c2c3a6ab6e73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/92/92b0601e39ddcde8e5b678d1fdaef110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/9d/9d08fce80385ba8296b1a609627e6351" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/cd/cd42e4e1ebe381554c3e4a0607641f4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/d3/d358b3546848ff3b4c06f685151f0bf9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/db/db5795c8f96f43b2ce53371030934536" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/e3/e3fc55ef48463e85aa3397b960b41fe6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Documentation~/Sprite.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IAssetDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IAssetDatabase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IGL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IGL.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IGUIUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IGUIUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IHandles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IHandles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/ISpriteEditorDataProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/ISpriteEditorDataProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/ITexture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/ITexture.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IUndoSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IUndoSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-TopWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-TopWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-TopWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-TopWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointedTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointedTop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/ItemCreationUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/ItemCreationUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/MenuItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ObjectMenuCreation/MenuItems.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Obsolete.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Obsolete/ObsoleteSupport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Obsolete/ObsoleteSupport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor/ShapeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor/ShapeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor/ShapeEditorRectSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor/ShapeEditorRectSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorHandles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorHandles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorWindowSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorWindowSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteNameFileIdPair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteNameFileIdPair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteRect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteRect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteUtilityWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteUtilityWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/ISpriteEditorModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/ISpriteEditorModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteEditorData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteEditorData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/DefaultSpriteNameFileIdDataProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/DefaultSpriteNameFileIdDataProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleBaseView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleBaseView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModuleView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpritePolygonModeModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpritePolygonModeModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpritePolygonModeModuleView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpritePolygonModeModuleView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteOutlineModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteOutlineModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpritePhysicsShapeModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpritePhysicsShapeModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteSecondaryTexturesModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteSecondaryTexturesModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/TextureImporterDataProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/TextureImporterDataProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/TextureImporterDataProviderImplementation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/TextureImporterDataProviderImplementation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/PolygonChangeShapeWindow.uxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/PolygonChangeShapeWindow.uxml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/SpriteEditor.uss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/SpriteEditor.uss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/SpriteFrameModuleInspector.uxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/UI/SpriteEditor/SpriteFrameModuleInspector.uxml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Unity.2D.Sprite.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Unity.2D.Sprite.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests/Editor/SpritePackageTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests/Editor/SpritePackageTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DURPGameProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DURPGameProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5a/5a3d45a71c545c5d3d3d044f90a36aa3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/97/9789903f8382be8c2a11323c8c99db34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b4530440bd60b124c5d24f87cfc769cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b6b5a7c8fa9df2df0bb44b5a016abeb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b9/b942d45e1a68b8dc2699006023d91f17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +334,9 @@
       <workItem from="1662301604374" duration="589000" />
       <workItem from="1662304482954" duration="2702000" />
       <workItem from="1662307341637" duration="16611000" />
-      <workItem from="1662386108647" duration="3019000" />
+      <workItem from="1662386108647" duration="4205000" />
+      <workItem from="1662404244924" duration="57000" />
+      <workItem from="1662469485317" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="shitty committ">
       <created>1662301695059</created>
@@ -121,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662389014500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Coyote, buffer, double jump still is an issue">
+      <created>1662389455110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662389455110</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +416,7 @@
     <MESSAGE value="A proper player controller, with double jump" />
     <MESSAGE value="Coyote, buffered, attempted doublejump fix" />
     <MESSAGE value="A proper player controller, with double jump&#10;&#10;Signed-off-by: Charlotte &lt;ayy.charlotte@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="A proper player controller, with double jump&#10;&#10;Signed-off-by: Charlotte &lt;ayy.charlotte@gmail.com&gt;" />
+    <MESSAGE value="Coyote, buffer, double jump still is an issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coyote, buffer, double jump still is an issue" />
   </component>
 </project>

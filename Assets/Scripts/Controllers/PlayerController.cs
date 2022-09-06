@@ -35,6 +35,9 @@ namespace Controllers
         private int jumpCount; //added this to keep track of jumps
         public int maxJumps = 2; //added this to keep track of jumps
 
+
+        public bool isThrusting; //added this to keep track of thrusting
+
         bool facingRight = true;
         float moveDirection = 0;
         bool isGrounded = false;
@@ -42,10 +45,12 @@ namespace Controllers
         Rigidbody2D r2d;
         CapsuleCollider2D mainCollider;
         Transform t;
+        private IEnumerator m_Enumerator;
 
         // Use this for initialization
         void Start()
         {
+            m_Enumerator = ThrustCooldown();
             t = transform;
             r2d = GetComponent<Rigidbody2D>();
             mainCollider = GetComponent<CapsuleCollider2D>();
@@ -64,7 +69,7 @@ namespace Controllers
         void Update()
         {
             // Movement controls
-            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
             {
                 moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
             }
@@ -135,6 +140,20 @@ namespace Controllers
                 r2d.velocity = new Vector2(r2d.velocity.x, r2d.velocity.y * 0.5f);
                 coyoteTimeCounter = 0f;
             }
+            
+            
+            //thrust player in the direction they are facing
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                r2d.AddForce(new Vector2(5000f* moveDirection, 0f));
+                Debug.Log("Thrusting");
+                //character blink red to indicate cooldown
+                StartCoroutine(m_Enumerator);
+                // revert character color to originala
+
+            }
+
+
             // Camera follow
             if (mainCamera)
             {
@@ -203,6 +222,22 @@ namespace Controllers
             isJumping = true;
             yield return new WaitForSeconds(0.5f);
             isJumping = false;
+        }
+        
+        private IEnumerator ThrustCooldown()
+        {
+            isThrusting = true;
+            yield return new WaitForSeconds(10.0f);
+            // blink red
+            for (int i = 0; i < 10; i++)
+            {
+                yield return new WaitForSeconds(0.1f);
+                GetComponent<SpriteRenderer>().color = Color.red;
+                yield return new WaitForSeconds(0.1f);
+                GetComponent<SpriteRenderer>().color = Color.cyan;;
+            }
+            GetComponent<SpriteRenderer>().color = Color.cyan;
+            isThrusting = false;
         }
     }
 }
