@@ -117,42 +117,45 @@ namespace Controllers
                 if(canDoubleJump){
                     Debug.Log("Double Jumping");
                     canDoubleJump = false;
-                    r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight * 0.80f);
+                    r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight * 0.95f);
                 }
                 //should be a double jump
             }
-            //coyote time and jump buffer time
-            if (isGrounded)
+            //coyote time
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                coyoteTimeCounter = 0;
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 coyoteTimeCounter = coyoteTime;
-                
             }
-            else
+            if (coyoteTimeCounter > 0)
             {
                 coyoteTimeCounter -= Time.deltaTime;
-            }
-
+                if (isGrounded)
+                {
+                    Debug.Log("Coyote Jumping");
+                    r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+                    canDoubleJump = true;
+                }
+            } 
+            //buffered jump
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 jumpBufferCounter = jumpBufferTime;
             }
-            else
+            if (jumpBufferCounter > 0)
             {
                 jumpBufferCounter -= Time.deltaTime;
+                if (isGrounded)
+                {
+                    Debug.Log("Buffered Jumping");
+                    r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+                    canDoubleJump = true;
+                }
             }
 
-            if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f && !isJumping)
-            {
-                r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
-                coyoteTimeCounter = 0f;
-            }
-            if (Input.GetKeyUp(KeyCode.Space) && r2d.velocity.y > 0f)
-            {
-                r2d.velocity = new Vector2(r2d.velocity.x, r2d.velocity.y * 0.5f);
-                coyoteTimeCounter = 0f;
-            }
-            
-            
             //thrust player in the direction they are facing
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
@@ -164,6 +167,18 @@ namespace Controllers
                 }
 
             }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             // Camera follow
