@@ -6,15 +6,26 @@ namespace Controllers
 {
     
     /// <summary>
-    /// Simple WASD controller for the player character
-    /// The camera is attached to the player and follows along with it.
-    /// IDK what that is supposed to be called.
-    /// Double jump has kinda sorta been added, it's kinda OP.
+    /// Simple player controller
+    /// for use in the [Untitled Game]
+    /// 
+    /// Organization: https://github.com/Fragmented-Breakfast-Games
+    /// -
+    /// Documentation: https://github.com/Fragmented-Breakfast-Games/UntitledGameDocs
+    /// -
+    /// Project Board: https://github.com/orgs/Fragmented-Breakfast-Games/projects/2
     /// </summary>
     
     
-    //TODO: gitignore, this is a test of that
+    //Updates: Dash is working but somewhat finicky / Acts like teleportation at times. Dash is bound to left shift.
+    //1: Coyote time *might* be working. I'm not sure.
+    //2: Buffered jump is working as far as I can tell.
+    //3: Double jump works but the thrust of the actual jump is a bit weak.
     
+    //TODO: Add a wall jump mechanic. (Currently the player kinda just sticks to the wall)
+    //Prohibit dash while standing still (we don't want the player to teleport, kinda weird)
+    //Make sure coyote/buffered jump works properly, and give the double jump a bit more oomph.
+
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(CapsuleCollider2D))]
 
@@ -101,7 +112,7 @@ namespace Controllers
             
             
             // Jump controls for various things
-            // such as coyote time, bufferedaaas  jump, and double jump
+            // such as coyote time, buffered jump, and double jump
             
             // Jumping
             if (Input.GetKeyDown(KeyCode.Space))
@@ -165,22 +176,9 @@ namespace Controllers
                     isThrusting = true;
                     StartCoroutine(ThrustCooldown());
                 }
-
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
             // Camera follow
             if (mainCamera)
             {
@@ -245,6 +243,7 @@ namespace Controllers
                 // screen text 
                 Debug.Log("Thrust Cooldown Started");
                 yield return new WaitForSeconds(5.0f);
+                //debug count down
                 Debug.Log("Thrust Cooldown Ended");
                 canThrust = true;
                 
